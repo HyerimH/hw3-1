@@ -1,13 +1,13 @@
 package com.example.springhw31.dto;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * UserDto 클래스는 수정 X
- */
+
 @Getter
 @Setter
+@NoArgsConstructor
 public class UserDto {
 
   private String username;
